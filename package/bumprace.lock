@@ -1,0 +1,5 @@
+# Upstream BumpRace (code and data) at the commit this port builds.
+BR_URL=https://github.com/karlb/bumprace
+BR_COMMIT=b7330a591b0664fdd9befb2697834439eac206f8
+BR_VERSION=1.5.8
+PORT_VERSION=1.5.8-gfos1
