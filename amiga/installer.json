@@ -1,0 +1,14 @@
+{
+  "name": "BumpRace",
+  "version": "1.5.8-gfos1",
+  "drawer": "BumpRace",
+  "program": "BumpRace",
+  "cpu": "68040",
+  "fpu": true,
+  "space": 8000000,
+  "modules": ["SDL2.module", "SDL2_image.module", "SDL2_mixer.module"],
+  "keep": ["User"],
+  "parent": "Work:Games",
+  "badge": "icons/art/bumprace.png",
+  "script": "Install-BumpRace"
+}

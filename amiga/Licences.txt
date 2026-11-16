@@ -1,0 +1,26 @@
+BumpRace: licences
+==================
+
+The game: BumpRace by Karl Bartel, with Lion Kimbro (particles), Stephan
+and Mehdi Yousfi-Monod (levels), https://github.com/karlb/bumprace.
+
+- The program is under the GNU General Public License, version 2 or (at
+  your option) any later version (COPYING.txt). Its source, and this
+  port's, are at https://github.com/karlb/bumprace and
+  https://github.com/DalsinAI/amigabumprace (the commit is in the
+  archive's .readme).
+- The pictures in Data/gfx are Karl Bartel's, with the game. The
+  background, back2.jpg, is Sweetie187's photograph (Creative Commons
+  Attribution 2.0 Generic), scaled to 800 x 600 and darkened by upstream.
+- The music and sounds in Data/sound are under Creative Commons
+  Attribution 3.0: Flying_me_softly.ogg by Alexandr Zhelanov,
+  explosion1.ogg by Retimer, Menu_Select_01.ogg by Little Robot Sound
+  Factory, Picked_Coin_Echo_2.ogg by NenadSimic. AUTHORS.txt (upstream's
+  own) lists them with their homepages.
+- SDL 2, SDL2_image and SDL2_mixer are GFOpenUp's (LIBS:GFOpenGPU), not
+  in this drawer.
+- The Amiga port's own files (amiga/, AMIGA_PORT.md, package/, tools/,
+  tests/) are GPL-2.0-or-later, like the game; the GlowIcon art is The
+  AmiCradle Team's own.
+
+Copyright (c) 2026 AmiCradle Team.

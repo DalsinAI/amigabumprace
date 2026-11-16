@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BumpRace's GlowIcon art: a small silver racer with a glowing thruster
+     flying through a green-walled cave in space, towards a blue teleport
+     ring. The AmiCradle Team's own drawing. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="space" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#1b3a6b"/><stop offset="1" stop-color="#050a18"/>
+    </radialGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3fae95"/><stop offset="1" stop-color="#155c4c"/>
+    </linearGradient>
+    <linearGradient id="ship" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f6fa"/><stop offset="1" stop-color="#6d7486"/>
+    </linearGradient>
+    <radialGradient id="flame" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6b0"/><stop offset="0.5" stop-color="#ff9a2a"/><stop offset="1" stop-color="#ff3a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ring" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#7fb4ff"/><stop offset="0.8" stop-color="#2a3fd0"/><stop offset="1" stop-color="#0b1460"/>
+    </radialGradient>
+  </defs>
+  <rect x="6" y="6" width="116" height="116" rx="10" fill="url(#space)" stroke="#0f2d4f" stroke-width="3"/>
+  <!-- stars -->
+  <g fill="#cfe3ff">
+    <circle cx="24" cy="22" r="1.2"/><circle cx="58" cy="16" r="1"/><circle cx="96" cy="30" r="1.3"/>
+    <circle cx="70" cy="58" r="1"/><circle cx="20" cy="70" r="1"/><circle cx="104" cy="96" r="1.1"/>
+  </g>
+  <!-- cave walls -->
+  <g fill="url(#wall)" stroke="#0b3a30" stroke-width="2">
+    <rect x="8" y="88" width="62" height="16" rx="4"/>
+    <rect x="54" y="20" width="16" height="50" rx="4"/>
+    <rect x="86" y="8" width="16" height="44" rx="4"/>
+    <rect x="80" y="70" width="40" height="16" rx="4"/>
+  </g>
+  <!-- the teleport ring -->
+  <circle cx="102" cy="108" r="11" fill="url(#ring)" stroke="#0b1460" stroke-width="1.5"/>
+  <circle cx="102" cy="108" r="4" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  <!-- the racer, thrust behind it -->
+  <g transform="rotate(35 36 52)">
+    <ellipse cx="36" cy="72" rx="7" ry="13" fill="url(#flame)"/>
+    <path d="M36 34 L48 62 L36 57 L24 62 Z" fill="url(#ship)" stroke="#1d2233" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="36" cy="50" r="3.5" fill="#2bc3ff" stroke="#0a3550" stroke-width="1"/>
+  </g>
+</svg>
