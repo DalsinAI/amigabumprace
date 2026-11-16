@@ -13,7 +13,8 @@ four racers (best steering, extra time, a speed boost, or sticking to
 walls), race alone, against a friend, or as a team of two, and make the
 high score table.
 
-Status: host tests pass; not yet built in the stove or run in a lab.
+Status: host tests pass (played through the keyboard on a virtual X
+display); built in Cradle's os32-gcc16-open6 stove; not yet run in a lab.
 
 
 What you need
